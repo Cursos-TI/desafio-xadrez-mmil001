@@ -32,5 +32,18 @@ int main() {
         k++;
     } while (k < MOVIMENTO_RAINHA);
 
+    printf("\n"); // Separador
+
+    // Movimentação do Cavalo (2 casas para baixo e 1 para a esquerda)
+    printf("Movimentação do Cavalo:\n");
+    for (int cavalo_baixo = 0; cavalo_baixo < 2; cavalo_baixo++) {
+        printf("Baixo\n");
+        int cavalo_esquerda = 0;
+        while (cavalo_esquerda < 1) {
+            printf("Esquerda\n");
+            cavalo_esquerda++;
+        }
+    }
+
     return 0;
 }
